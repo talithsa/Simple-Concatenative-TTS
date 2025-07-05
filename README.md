@@ -42,7 +42,7 @@ Before you begin, ensure you have the following installed:
 ### ⏳Usage
 This project offers a command-line interface for its functionalities.
 
-### 1\. Prepare/Convert Dataset
+#### 1\. Prepare/Convert Dataset
 Use `data.py` to process your raw `.wav` files (resample, convert to mono, and split into train/test sets).
 1.  Place your raw WAV files into a source folder, organized by labels (e.g., `input_raw_data/ambulans/ambulans_01.wav`).
 2.  Run `data.py`:
@@ -55,7 +55,7 @@ Use `data.py` to process your raw `.wav` files (resample, convert to mono, and s
       * `Path folder output`: The desired output path for the processed dataset (e.g., `data_processed`).
       * `Persentase training (cth 80)`: The percentage of data to use for the training set (e.g., `80`).
   
-### 2\. Verify Dataset
+#### 2\. Verify Dataset
 Use `data.py` to verify the structure and properties of your processed dataset.
 1.  Run `data.py`:
     ```bash
@@ -64,7 +64,7 @@ Use `data.py` to verify the structure and properties of your processed dataset.
 2.  Select option `2. Verify`.
 3.  Enter the `Path dataset` (e.g., `data_processed`). The script will check sample rates, mono conversion, and `wav`/`lab` file consistency.
    
-### 3\. Synthesize Speech
+#### 3\. Synthesize Speech
 Use `TTS_concatenative.py` to synthesize speech from concatenated word units
 1.  **Ensure `data_processed/train/wav` contains your processed audio files**, correctly categorized in subfolders by word.
 2.  **Verify `BIN_PATH` in `mainTTS.py` is correct** and points to your FFmpeg `bin` directory.
@@ -76,7 +76,7 @@ Use `TTS_concatenative.py` to synthesize speech from concatenated word units
 5.  The synthesized audio will be played (using `ffplay`) and saved in the `output/` directory along with metadata.
 6.  Type `keluar` to exit.
 
-### 4\. (Optional) Generate Dummy Samples
+#### 4\. (Optional) Generate Dummy Samples
 If you want to quickly test the `TTS_concatenative.py` script without a full dataset, you can generate dummy `.wav` files using `testbeep.py`. These files are simple beeps, labeled with the `AVAILABLE_WORDS`.
 1.  Run `testbeep.py`:
     ```bash
