@@ -111,4 +111,4 @@ You can modify these variables in the respective Python files:
   * `AVAILABLE_WORDS` in `mainTTS.py`: The dictionary of words the TTS can pronounce. This should ideally match the words in your `data_processed` folder.
 -----
 
-#### *Notes! This project was not created by me individually, but was created together with two of my colleagues for a Introduction to Speech and Text-to-Speech Course.*
+*Notes: This project was not created by me individually, but was created together with two of my colleagues for a Introduction to Speech and Text-to-Speech Course.*
