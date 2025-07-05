@@ -1,0 +1,6 @@
+Input Teks: ambulans gawat darurat
+====================
+Klip Audio yang Digunakan:
+  - data_processed/train/wav\ambulans\ambulans_11.wav
+  - data_processed/train/wav\gawat\gawat-5.wav
+  - data_processed/train/wav\darurat\darurat-28.wav

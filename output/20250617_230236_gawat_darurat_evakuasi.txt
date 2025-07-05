@@ -1,0 +1,6 @@
+Input Teks: gawat darurat evakuasi
+====================
+Klip Audio yang Digunakan:
+  - data_processed/train/wav\gawat\gawat-14.wav
+  - data_processed/train/wav\darurat\darurat-13.wav
+  - data_processed/train/wav\evakuasi\10.wav
