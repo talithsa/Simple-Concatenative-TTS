@@ -76,7 +76,7 @@ Use `mainTTS.py` to synthesize speech from concatenated word units
 5.  The synthesized audio will be played (using `ffplay`) and saved in the `output/` directory along with metadata.
 6.  Type `keluar` to exit.
 
-**4. (Optional) Generate Dummy Samples*
+**4. Generate Dummy Samples  (Optional)**
 If you want to quickly test the `mainTTS.py` script without a full dataset, you can generate dummy `.wav` files using `testbeep.py`. These files are simple beeps, labeled with the `AVAILABLE_WORDS`.
 1.  Run `testbeep.py`:
     ```bash
