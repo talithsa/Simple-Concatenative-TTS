@@ -25,7 +25,7 @@ Before you begin, ensure you have the following installed:
 1.  **Clone the repository** (or download the files):
     ```bash
     git clone https://github.com/talithsa/Simple-Concatenative-TTS.git
-    cd \Simple-Concatenative-TTS\ # Navigate to your project directory
+    cd Simple-Concatenative-TTS   # Navigate to your project directory
     ```
 2.  **Create a Virtual Environment (recommended):**
     ```bash
